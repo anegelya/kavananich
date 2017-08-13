@@ -1,7 +1,17 @@
+@font-face {
+  font-family: 'Forum';
+  src: url('fonts/Forum/Forum-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Italianno';
+  src: url('fonts/Italianno/Italianno-Regular.ttf')  format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Lora', monospace;
+    font-family: 'Forum', sans-serif;
     font-size: 100%;
 }
 
@@ -185,7 +195,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Forum', monospace;
+    font-weight: 100;
 }
 
 h2 {
@@ -217,14 +227,13 @@ header .title-top {
 
 header .title-top h1 {
     color: #e02b7a;
-    font-family: 'Italianno', serif;
+    font-family: 'Italianno', cursive;
     font-weight: normal;
     font-size: 8rem;
     position: relative;
 }
 
 header .title-top h2 {
-    font-family: 'Forum', cursive;
     font-weight: 400;
     letter-spacing: 0.2rem;
     font-size: 0.9rem;
@@ -252,7 +261,6 @@ nav h2 {
     display: inline-block;
     color: #000;
     margin-right: 20%;
-    font-family: 'Forum', cursive;
     font-weight: 400;
     letter-spacing: 0.15rem;
     font-size: 1.3rem;
@@ -313,7 +321,6 @@ nav li a {
     padding: 0 1.56rem;
     font-size: 0.9rem;
     color: #fff;
-    font-family: 'Forum', monospace;
     outline: none;
     font-weight: 300;
     -webkit-transition: all 0.3s ease-in-out 0s;
@@ -632,7 +639,6 @@ body nav+div {
 	font-size: .8em;
 	padding-bottom: 0;
 	line-height: 1.5rem;
-	font-family: 'Lora', sans-serif;
 	font-weight: 300;
 	text-align: left;
 }
@@ -877,13 +883,11 @@ footer .soc svg path {
 }
 
 footer p {
-    font-family: 'Roboto Slab', sans-serif;
     letter-spacing: 0.08rem;
     font-weight: 300;
 }
 
 footer p a {
-    font-family: 'Roboto Slab', sans-serif;
     letter-spacing: 0.08rem;
     font-weight: 300;
 }
