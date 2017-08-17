@@ -1206,7 +1206,11 @@ footer .copy {
     }
     
     #partners img {
-        height: 4rem;
+        height: 3rem;
+    }
+    
+    #partners {
+        width: 95%;
     }
 }
 

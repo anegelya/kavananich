@@ -90,9 +90,248 @@ $msg='
 </body>
 </html>';
      
-     mail($adminemail, "Нам написав(-ла) $name", $msg, $headers);
- 
-     //mail("$adminemail", "Нам написав(-ла) $name", "$msg", $headers); 
+mail($adminemail, "Нам написав(-ла) $name", $msg, $headers);
+     
+          
+     
+
+$msg='<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="Generator" content="Made with Mail Designer from equinux">
+	<meta name="Viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css" id="Mail Designer General Style Sheet">
+		a { word-break: break-word; }
+		a img { border:none; }
+		img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; }
+		body { width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+		.ExternalClass { width: 100%; }
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+		#page-wrap { margin: 0; padding: 0; width: 100% !important; line-height: 100% !important; }
+		#outlook a { padding: 0; }
+		.preheader { display:none !important; }
+		a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; }
+		.a5q { display: none !important; }
+		.Apple-web-attachment { vertical-align: initial !important; }
+		.Apple-edge-to-edge-visual-media { margin: initial !important; max-width: initial !important; width: 100%; }
+	</style>
+	<style type="text/css" id="Mail Designer Mobile Style Sheet">
+		@media only screen and (max-width: 580px) {
+			table.email-body-wrap {
+				width: 320px !important;
+			}
+			td.page-bg-show-thru {
+				display: none !important;
+			}
+			table.layout-block-wrapping-table {
+				width: 320px !important;
+			}
+			table.mso-fixed-width-wrapping-table {
+				width: 320px !important;
+			}
+			.layout-block-full-width {
+				width: 320px !important;
+			}
+			table.layout-block-column, table.layout-block-padded-column {
+				width: 100% !important;
+			}
+			table.layout-block-box-padding {
+				width: 100% !important;
+				padding: 5px !important;
+			}
+			table.layout-block-horizontal-spacer {
+				display: none !important;
+			}
+			tr.layout-block-vertical-spacer {
+			   display: block !important;
+			   height: 8px !important;
+			}
+			td.container-padding {
+				display: none !important;
+			}
+			
+			table {
+				min-width: initial !important;
+			}
+			td {
+				min-width: initial !important;
+			}
+			
+			.desktop-only { display: none !important; }
+			.mobile-only { display: block !important; }
+			
+			.hide {
+				max-height: none !important;
+				display: block !important;
+				overflow: visible !important;
+			}
+			
+			.EQ-00 { width: 15px !important; }
+			.EQ-01 { width: 15px !important; }
+			.EQ-02 { width: 290px !important; }
+			
+			.EQ-03 { width: 15px !important; }
+			.EQ-04 { width: 15px !important; }
+			.EQ-05 { width: 290px !important; }
+		}
+	</style>
+	<!--[if gte mso 9]>
+	<style type="text/css" id="Mail Designer Outlook Style Sheet">
+		table.layout-block-horizontal-spacer {
+		    display: none !important;
+		}
+		table {
+		    border-collapse:collapse;
+		    mso-table-lspace:0pt;
+		    mso-table-rspace:0pt;
+		    mso-table-bspace:0pt;
+		    mso-table-tspace:0pt;
+		    mso-padding-alt:0;
+		    mso-table-top:0;
+		    mso-table-wrap:around;
+		}
+		td {
+		    border-collapse:collapse;
+		    mso-cellspacing:0;
+		}
+	</style>
+	<xml>
+		<o:OfficeDocumentSettings>
+			<o:AllowPNG/>
+			<o:PixelsPerInch>96</o:PixelsPerInch>
+		</o:OfficeDocumentSettings>
+	</xml>
+	<![endif]-->
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif:regular" rel="stylesheet" type="text/css" class="EQWebFont"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<body style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; " background="page-bg.jpg"><!--[if gte mso 9]>
+<v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+<v:fill type="tile" src="https://kavananich.com/email/res/page-bg.jpg" />
+</v:background>
+<![endif]--> 
+
+<table width="100%" cellspacing="0" cellpadding="0" id="page-wrap" align="center" background="page-bg.jpg">
+<tbody><tr>
+	<td>
+
+<table class="email-body-wrap" width="760" cellspacing="0" cellpadding="0" id="email-body" align="center">
+<tbody><tr>
+	<td width="30" class="page-bg-show-thru">&nbsp;<!--Left page bg show-thru --></td>
+	<td width="700" id="page-body" background="background.jpg" bgcolor="#ffffff">
+		
+		<!--Begin of layout container -->
+		<div id="eqLayoutContainer">
+			
+			<div class="desktop-only" width="100%">
+				<!--[if !mso 15]><!--><table width="700" cellspacing="0" cellpadding="0" class="layout-block-wrapping-table" style="mso-hide:all; min-width: 700px; ">
+					<tbody><tr>
+						<td valign="top" class="layout-block-full-width" width="700" style="min-width: 700px; ">
+							<table cellspacing="0" cellpadding="0" class="layout-block-full-width" width="700" style="min-width: 700px; ">
+								<tbody><tr>
+									<td width="700" style="min-width: 700px; ">
+										<div class="layout-block-image">
+											<img width="700" height="121" alt="" src="https://kavananich.com/email/res/image-1.png" border="0" style="line-height: 1px; display: block; width: 700px; height: 121px; ">
+										</div>
+									</td>
+								</tr>
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+			<!--<![endif]--><!--[if gte mso 9]><table width="700" cellspacing="0" cellpadding="0" class="mso-fixed-width-wrapping-table">
+<tr><td valign="top" class="layout-block-full-width"><div class="layout-block-image"><img height="121" alt="" src="https://kavananich.com/email/res/image-1.png" border="0" style="line-height: 1px; display: block;" class="img-EQMST-A3DFEC46-51FA-451A-ACDD-D6ABFF7CCE7F" width="700"></img><div style="width:0px;height:0px;max-height:0;max-width:0;overflow:hidden;display:none;visibility:hidden;mso-hide:all;"></div></div></td>
+</tr></table><![endif]--></div>
+			
+			<!--[if !mso ]><!-->
+			
+			<div style="display: none; max-height: 0px; overflow: hidden; " class="mobile-only hide" width="100%">
+				<table width="320" cellspacing="0" cellpadding="0" class="layout-block-wrapping-table hide" style="display: none; max-height: 0px; overflow: hidden; min-width: 320px; ">
+					<tbody><tr>
+						<td valign="top" class="layout-block-full-width" width="320" style="min-width: 320px; ">
+							<table cellspacing="0" cellpadding="0" class="layout-block-full-width hide" width="320" style="display: none; max-height: 0px; overflow: hidden; min-width: 320px; ">
+								<tbody><tr>
+									<td width="320" style="min-width: 320px; ">
+										<div class="layout-block-image hide" style="display: none; max-height: 0px; overflow: hidden; ">
+											<img width="320" height="90" alt="" src="https://kavananich.com/email/res/image-2.png" border="0" style="line-height: 1px; display: none; max-height: 0px; overflow: hidden; width: 320px; height: 90px; " class="hide">
+										</div>
+									</td>
+								</tr>
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+			</div><!--<![endif]-->
+			
+			<div width="100%">
+				<!--[if !mso 15]><!--><table width="700" cellspacing="0" cellpadding="0" class="layout-block-wrapping-table" style="mso-hide:all; min-width: 700px; ">
+					<tbody><tr>
+						<td width="32" class="EQ-00" style="min-width: 32px; ">&nbsp;</td>
+						<td class="EQ-02" width="636" style="min-width: 636px; ">
+							<table cellspacing="0" cellpadding="0" align="left" class="layout-block-column" width="636" style="min-width: 636px; ">
+								<tbody><tr>
+									<td width="616" valign="top" align="left" background="box-bg-5.jpg" style="padding-left: 10px; padding-right: 10px; min-width: 616px; " bgcolor="#ffffff">
+										<table cellspacing="0" cellpadding="0" class="layout-block-box-padding" width="616" style="min-width: 616px; ">
+											<tbody><tr>
+												<td align="left" class="layout-block-column" width="616" style="min-width: 616px; ">
+													<div class="text" style="font-size: 16px; "><br><div><div style="text-align: center; line-height: 1.2; "><span style="font-size: 15px; "><b><font face="Helvetica"><br></font></b></span></div><div style="text-align: center; line-height: 1.2; "><font face="Helvetica"><span style="font-size: 15px; text-transform: uppercase; "><b>дякуємо, '. $name. '!</b></span></font></div><div style="font-size: 16px; text-align: center; line-height: 1.2; "><font face="Times" style="font-size: 14px; "><br></font></div><div style="color: rgb(0, 0, 0); font-family: Times; font-size: 15px; font-style: normal; font-weight: normal; line-height: 21px; text-align: center; text-decoration: none; "><p>&nbsp;kavananich вдячні, за те, що ви обрали саме нас!</p><p></p><p></p><p>Ми відповімо вам якомога швидше.</p><p>А тим часом ви можете відвідати наші сторінки:</p><p></p><div style="font-size: 16px; text-align: center; line-height: 1.5; "><font face="Times"><span style="font-size: 14px; "><br></span></font></div><p><img src="https://kavananich.com/email/res/facebook-logo-button.png" width="35" height="35" style="margin-right: 20px"><img src="https://kavananich.com/email/res/instagram-logo.png" width="35" height="35" style="margin-right: 20px"><img src="https://kavananich.com/email/res/youtube-symbol.png" width="35" height="35"></p></div><div style="font-size: 16px; text-align: center; line-height: 1.2; "><br></div><div style="text-align: center; "><div style="line-height: 12px; "><u><b style="font-size: 15px; "><font color="#a4a5ae" face="Helvetica"><br></font></b></u></div><div style="line-height: 12px; "><u><b style="font-size: 15px; "><font color="#a4a5ae" face="Helvetica"><br></font></b></u></div><div></div><div></div></div></div></div>
+												</td>
+											</tr>
+										</tbody></table>
+									</td>
+								</tr>
+							</tbody></table>
+						</td>
+						<td width="32" class="EQ-01" style="min-width: 32px; ">&nbsp;</td>
+					</tr>
+				</tbody></table>
+			<!--<![endif]--><!--[if gte mso 9]><table cellspacing="0" cellpadding="0" class="layout-block-wrapping-table" width="700">
+<tr><td width="32" class="layout-block-padding-left">&nbsp; </td><td width="636" class="layout-block-content-cell" valign="top" align="left"><v:rect style="width:636px;" stroke="f"><v:fill type="tile" src="https://kavananich.com/email/res/box-bg-5.jpg" color="#ffffff"></v:fill><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><div><div style="font-size:0"><table cellspacing="0" cellpadding="0" class="layout-block-box-padding">
+<tr><td style="font-size:1px;" width="10">&nbsp; </td><td align="left" class="layout-block-column" width="616"><div class="text" style="font-size: 16px; font-family: sans-serif;"><br><div><div style="text-align: center; line-height: 120%;"><span style="font-size: 15px;"><b><font face="sans-serif"><br></font></b></span></div><div style="text-align: center; line-height: 120%;"><font face="sans-serif"><span style="font-size: 15px; text-transform: uppercase; "><b>ДЯКУЄМО, '. $name. '!</b></span></font></div><div style="font-size: 16px; text-align: center; line-height: 120%;"><font face="sans-serif" style="font-size: 14px;"><br></font></div><div style="color: rgb(0, 0, 0); font-family: sans-serif; font-size: 15px; font-style: normal; font-weight: normal; line-height: 21px; text-align: center; text-decoration: none;"><p> kavananich вдячні, за те, що ви обрали саме нас!</p><p></p><p></p><p>Ми відповімо вам якомога швидше.</p><p>А тим часом ви можете відвідати наші сторінки:</p><p></p></div><div style="font-size: 16px; text-align: center; line-height: 150%;"><font face="sans-serif"><span style="font-size: 14px;"><br></span></font></div><div style="font-size: 16px; text-align: center; line-height: 120%;"><br></div><div style="text-align: center;"><div style="line-height: 12px;"><u><b style="font-size: 15px;"><font color="#a4a5ae" face="sans-serif"><br></font></b></u></div><div style="line-height: 12px;"><u><b style="font-size: 15px;"><font color="#a4a5ae" face="sans-serif"><br></font></b></u></div><div></div><div></div></div></div></div></td><td style="font-size:1px;" width="10">&nbsp; </td>
+</tr></table></div></div></v:textbox></v:rect></td><td width="32" class="layout-block-padding-right">&nbsp; </td>
+</tr></table><![endif]--></div>
+			
+			<div style="background-image:url(box-bg-7.jpg); background-position: left top; " width="100%">
+				<!--[if !mso 15]><!--><table width="700" cellspacing="0" cellpadding="0" class="layout-block-wrapping-table" background="box-bg-7.jpg" bgcolor="#1a1a1a" style="mso-hide:all; min-width: 700px; ">
+					<tbody><tr>
+						<td width="32" class="EQ-03" style="min-width: 32px; ">&nbsp;</td>
+						<td class="EQ-05" width="636" style="min-width: 636px; ">
+							<table cellspacing="0" cellpadding="0" align="left" class="layout-block-column" width="636" style="min-width: 636px; ">
+								<tbody><tr>
+									<td width="616" valign="top" align="left" background="box-bg-7.jpg" style="padding-left: 10px; padding-right: 10px; min-width: 616px; " bgcolor="#1a1a1a">
+										<table cellspacing="0" cellpadding="0" class="layout-block-box-padding" width="616" style="min-width: 616px; ">
+											<tbody><tr>
+												<td align="left" class="layout-block-column" width="616" style="min-width: 616px; ">
+													<div class="text" style="font-size: 16px; "><div style="text-align: center; line-height: 20px; "><span style="font-size: 12px; "><font face="Times, Times New Roman, Droid Serif, serif" color="#ffffff"><br></font></span></div><div style="text-align: center; line-height: 20px; "><br></div><div style="text-align: center; line-height: 20px; "><font face="Times, Times New Roman, Droid Serif, serif" color="#ffffff"><span style="font-size: 12px; ">телефон: +380 68 324 17 94&nbsp;</span></font></div><div style="text-align: center; line-height: 20px; "><font face="Times, Times New Roman, Droid Serif, serif" color="#ffffff"><span style="font-size: 12px; ">e-mail: info@kavananich.com</span></font></div><div style="text-align: center; line-height: 20px; "><span style="font-size: 12px; "><font face="Times, Times New Roman, Droid Serif, serif" color="#ffffff">© 2017 kavananich.com</font></span></div><div style="text-align: center; line-height: 20px; "><span style="font-size: 12px; "><font face="Times, Times New Roman, Droid Serif, serif" color="#ffffff"><br></font></span></div><div style="text-align: center; line-height: 20px; "><span style="font-size: 12px; "><font face="Times, Times New Roman, Droid Serif, serif" color="#ffffff"><br></font></span></div><div style="text-align: center; line-height: 20px; "><span style="font-size: 12px; "><font face="Times, Times New Roman, Droid Serif, serif" color="#ffffff"><br></font></span></div></div>
+												</td>
+											</tr>
+										</tbody></table>
+									</td>
+								</tr>
+							</tbody></table>
+						</td>
+						<td width="32" class="EQ-04" style="min-width: 32px; ">&nbsp;</td>
+					</tr>
+				</tbody></table>
+			<!--<![endif]--><!--[if gte mso 9]><table cellspacing="0" cellpadding="0" class="layout-block-wrapping-table" width="700">
+<tr><td width="32" class="layout-block-padding-left" bgcolor="#222222">&nbsp; </td><td width="636" class="layout-block-content-cell" valign="top" align="left"><v:rect style="width:636px;" stroke="f"><v:fill type="tile" src="https://kavananich.com/email/res/box-bg-7.jpg" color="#222222"></v:fill><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><div><div style="font-size:0"><table cellspacing="0" cellpadding="0" class="layout-block-box-padding">
+<tr><td style="font-size:1px;" width="10">&nbsp; </td><td align="left" class="layout-block-column" width="616"><div class="text" style="font-size: 16px; font-family: sans-serif;"><div style="text-align: center; line-height: 20px;"><span style="font-size: 12px;"><font face="Times New Roman, serif" color="#ffffff"><br></font></span></div><div style="text-align: center; line-height: 20px;"><br></div><div style="text-align: center; line-height: 20px;"><font face="Times New Roman, serif" color="#ffffff"><span style="font-size: 12px;">телефон: +380 68 324 17 94 </span></font></div><div style="text-align: center; line-height: 20px;"><font face="Times New Roman, serif" color="#ffffff"><span style="font-size: 12px;">e-mail: info@kavananich.com</span></font></div><div style="text-align: center; line-height: 20px;"><span style="font-size: 12px;"><font face="Times New Roman, serif" color="#ffffff">© 2017 kavananich.com</font></span></div><div style="text-align: center; line-height: 20px;"><span style="font-size: 12px;"><font face="Times New Roman, serif" color="#ffffff"><br></font></span></div><div style="text-align: center; line-height: 20px;"><span style="font-size: 12px;"><font face="Times New Roman, serif" color="#ffffff"><br></font></span></div><div style="text-align: center; line-height: 20px;"><span style="font-size: 12px;"><font face="Times New Roman, serif" color="#ffffff"><br></font></span></div></div></td><td style="font-size:1px;" width="10">&nbsp; </td>
+</tr></table></div></div></v:textbox></v:rect></td><td width="32" class="layout-block-padding-right" bgcolor="#222222">&nbsp; </td>
+</tr></table><![endif]--></div>
+			
+		</div>
+		<!--End of layout container -->
+		
+	</td>
+	<td width="30" class="page-bg-show-thru">&nbsp;<!--Right page bg show-thru --></td>
+</tr>
+</tbody></table><!--email-body -->
+
+	</td>
+</tr>
+</tbody></table><!--page-wrap -->
+
+</body></html>';
+    
+     
+mail($email, "Надіслано заявку", $msg, $headers);
+
  
 // Зберігаємо в базу даних
  
@@ -104,7 +343,7 @@ fclose($f);
 
 // Повідомлення для користувача
  
-     echo '<!DOCTYPE html>
+echo '<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -194,15 +433,6 @@ fclose($f);
     <script src="main.js"></script>
 </html>';
      
-/*print "<script language='Javascript'><!-- 
-function reload() {location = \"$backurl\"}; setTimeout('reload()', 6000); 
-//--></script> 
- 
-$msg 
- 
-<p>Дякуємо вам за ваше повідомлння! Ми зв'яжемось із вами найближчим часом.</p>
-<p>Gracias por su mensaje. En un plazo máximo de 24hrs responderemos a su petición.</p> 
-<p>Thank you for your message. We will respond to your request within the next 24 hours.</p>";*/ 
 exit; 
  } 
 ?>
