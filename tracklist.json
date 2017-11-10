@@ -1,1 +1,159 @@
-{"list":[{"title":"Love Runs Out","composer":"OneRepublic"},{"title":"Не питай","composer":"Океан Ельзи"},{"title":"Happy","composer":"Pharrell Williams"},{"title":"Air in G string","composer":"Johann Sebastian Bach"},{"title":"You Raise Me Up","composer":"Rolf Lovland"},{"title":"Roar","composer":"Katy Perry"},{"title":"Feeling Good","composer":"Anthony Newley and Leslie Bricusse"},{"title":"Тримай","composer":"Xристина Соловій"},{"title":"Por una Cabeza","composer":"Carlos Gardel"},{"title":"Divenire","composer":"Ludovico Einaudi"},{"title":"Make You Feel My Love","composer":"Bob Dylan"},{"title":"Secrets","composer":"OneRepublic"},{"title":"Canon in D","composer":"Johann Pachelbel"},{"title":"Love Me Again","composer":"John Newman"},{"title":"Коли навколо ні душі","composer":"Океан Ельзи"},{"title":"Skyfall","composer":"Adele Adkins"},{"title":"All of Me","composer":"John Legend"},{"title":"Madness","composer":"Muse"},{"title":"Shout to the Lord","composer":"Darlene Zschech"},{"title":"Oblivion","composer":"Astor Piazzolla"},{"title":"Sherlock","composer":"David Arnold and Michael Price"},{"title":"Summertime","composer":"George Gershwin"},{"title":"Відчуваю","composer":"Океан Ельзи"},{"title":"The Greatest","composer":"Sia"},{"title":"Firework","composer":"Katy Perry"},{"title":"Clocks","composer":"Coldplay"},{"title":"Rolling in the Deep","composer":"Adele Adkins"},{"title":"Alejandro","composer":"Lady Gaga"},{"title":"Radioactive","composer":"Imagine Dragons"},{"title":"Get Lucky","composer":"Daft Punk"},{"title":"Counting Stars","composer":"OneRepublic"},{"title":"Let it go","composer":"Demi Lovato"},{"title":"Set Fire to the Rain","composer":"Adele Adkins"},{"title":"Make-Up","composer":"The Hardkiss"},{"title":"Graviry","composer":"Злата Огнєвіч"},{"title":"Only Teardrops","composer":"Emmelie De Forest"},{"title":"1944","composer":"Jamala"},{"title":"Paradise","composer":"Coldplay"},{"title":"Така, як ти","composer":"Святослав Вакарчук"},{"title":"Обійми","composer":"Океан Ельзи"},{"title":"This place is a shelter","composer":"Olafur Arnalds"},{"title":"City of Stars","composer":"Justin Hurwitz"},{"title":"Люди, як кораблі","composer":"Скрябін"},{"title":"Журавлі","composer":"Hardkiss"},{"title":"Despacito","composer":"Luis Fonsi"}]}
+{
+    "list": [{
+        "title": "Love Runs Out",
+        "composer": "OneRepublic",
+        "url": "https://www.youtube.com/watch?v=sEtyfUMjzz4"
+    }, {
+        "title": "Не питай",
+        "composer": "Океан Ельзи",
+        "url": "https://www.youtube.com/watch?v=sEtyfUMjzz4&t=129s"
+    }, {
+        "title": "Happy",
+        "composer": "Pharrell Williams",
+        "url": "https://youtu.be/efXmZDga-AM?t=4m50s"
+    }, {
+        "title": "Air in G string",
+        "composer": "Johann Sebastian Bach"
+    }, {
+        "title": "You Raise Me Up",
+        "composer": "Rolf Lovland"
+    }, {
+        "title": "Roar",
+        "composer": "Katy Perry",
+        "url":"https://www.youtube.com/watch?v=sEtyfUMjzz4&t=256s"
+    }, {
+        "title": "Feeling Good",
+        "composer": "Anthony Newley and Leslie Bricusse"
+    }, {
+        "title": "Тримай",
+        "composer": "Xристина Соловій"
+    }, {
+        "title": "Por una Cabeza",
+        "composer": "Carlos Gardel"
+    }, {
+        "title": "Divenire",
+        "composer": "Ludovico Einaudi"
+    }, {
+        "title": "Make You Feel My Love",
+        "composer": "Bob Dylan"
+    }, {
+        "title": "Secrets",
+        "composer": "OneRepublic"
+    }, {
+        "title": "Canon in D",
+        "composer": "Johann Pachelbel"
+    }, {
+        "title": "Love Me Again",
+        "composer": "John Newman",
+        "url": "https://youtu.be/cw05IdQhrfM?t=2m41s"
+    }, {
+        "title": "Коли навколо ні душі",
+        "composer": "Океан Ельзи"
+    }, {
+        "title": "Skyfall",
+        "composer": "Adele Adkins"
+    }, {
+        "title": "All of Me",
+        "composer": "John Legend"
+    }, {
+        "title": "Madness",
+        "composer": "Muse"
+    }, {
+        "title": "Shout to the Lord",
+        "composer": "Darlene Zschech"
+    }, {
+        "title": "Oblivion",
+        "composer": "Astor Piazzolla"
+    }, {
+        "title": "Sherlock",
+        "composer": "David Arnold and Michael Price"
+    }, {
+        "title": "Summertime",
+        "composer": "George Gershwin"
+    }, {
+        "title": "Відчуваю",
+        "composer": "Океан Ельзи"
+    }, {
+        "title": "The Greatest",
+        "composer": "Sia"
+    }, {
+        "title": "Firework",
+        "composer": "Katy Perry"
+    }, {
+        "title": "Clocks",
+        "composer": "Coldplay",
+        "url": "https://youtu.be/cw05IdQhrfM?t=5m1s"
+    }, {
+        "title": "Rolling in the Deep",
+        "composer": "Adele Adkins",
+        "url": "https://www.youtube.com/watch?v=sEtyfUMjzz4&t=159s"
+    }, {
+        "title": "Alejandro",
+        "composer": "Lady Gaga"
+    }, {
+        "title": "Radioactive",
+        "composer": "Imagine Dragons",
+        "url": "https://www.youtube.com/watch?v=sEtyfUMjzz4&t=317s"
+    }, {
+        "title": "Get Lucky",
+        "composer": "Daft Punk",
+        "url": "https://www.youtube.com/watch?v=sEtyfUMjzz4&t=292s"
+    }, {
+        "title": "Counting Stars",
+        "composer": "OneRepublic",
+        "url": "https://www.youtube.com/watch?v=sEtyfUMjzz4&t=188s"
+    }, {
+        "title": "Let it go",
+        "composer": "Demi Lovato"
+    }, {
+        "title": "Set Fire to the Rain",
+        "composer": "Adele Adkins"
+    }, {
+        "title": "Make-Up",
+        "composer": "The Hardkiss"
+    }, {
+        "title": "Graviry",
+        "composer": "Злата Огнєвіч"
+    }, {
+        "title": "Only Teardrops",
+        "composer": "Emmelie De Forest",
+        "url": "https://youtu.be/efXmZDga-AM?t=3m31s"
+    }, {
+        "title": "1944",
+        "composer": "Jamala",
+        "url": "https://www.youtube.com/watch?v=sEtyfUMjzz4&t=218s"
+    }, {
+        "title": "Paradise",
+        "composer": "Coldplay"
+    }, {
+        "title": "Така, як ти",
+        "composer": "Святослав Вакарчук",
+        "url": "https://www.youtube.com/watch?v=sEtyfUMjzz4&t=31s"
+    }, {
+        "title": "Обійми",
+        "composer": "Океан Ельзи",
+        "url": "https://www.youtube.com/watch?v=efXmZDga-AM"
+    }, {
+        "title": "This place is a shelter",
+        "composer": "Olafur Arnalds"
+    }, {
+        "title": "City of Stars",
+        "composer": "Justin Hurwitz"
+    }, {
+        "title": "Люди, як кораблі",
+        "composer": "Скрябін"
+    }, {
+        "title": "Журавлі",
+        "composer": "Hardkiss"
+    }, {
+        "title": "Despacito",
+        "composer": "Luis Fonsi",
+        "url": "https://youtu.be/cw05IdQhrfM?t=3m46s"
+    }, {
+        "title": "Undisclosed Desires",
+        "composer": "Muse"
+    }, {
+        "title": "Starlight",
+        "composer": "Muse"
+    }]
+}
