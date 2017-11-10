@@ -103,57 +103,67 @@ $('#instagram-feed').load("instagram_feed.php");
 
 ytEmbed.init({'block':'youtube-section','key':'AIzaSyDwvEfKAurRT3J_bBQkatLumbs4x_TGI0Q','q':'PLpo0aN3fN4frLWGvM8o-kA74DYelhmOjM','type':'playlist','results':6,'meta':true,'player':'embed','layout':'full'});
 
-/* TRACKLIST */
-var numbers = [],
-    num;
-function listItemAdd(num) {
-    return (myObj.list[num].title + '<em> - ' + myObj.list[num].composer + '</em>');
-}
 
-function rnd(x) {
-    var i = Math.round(Math.random() * x);
-    return i;
-}
-
-function inListExist(i){
-    var listItem = document.createElement('li'),
-        num = rnd(myObj.list.length),
-        tracklistUL = document.getElementById("tracklist");
-    
-    function isInList (elem) {
-        return(elem == num);
-    }
-    
-    if (numbers.some(isInList)){
-        console.log("gotcha!" + num);
-        return inListExist(i);
-    } else if (numbers.some(isInList) == false) {
-        numbers.push(num);
-        listItem.innerHTML = listItemAdd(num);
-        console.log(numbers);
-        if (i < 6) {
-            tracklistUL.appendChild(listItem);
-        } else if (i == 6) {
-            listItem.className = 'container';
-            listItem.innerHTML = '<input type="checkbox" id="check_id"><label for="check_id"></label><ul id="ul-wrap"><li>' + myObj.list[num].title + '<em> - ' + myObj.list[num].composer + '</em></li></ul>';
-            tracklistUL.appendChild(listItem);
-        } else if (i > 6) {
-            var tracklistLiUl = document.getElementById("ul-wrap");
-            tracklistLiUl.appendChild(listItem);
-        }
-    }
-}
+/* Show and randomize tracklist */
 
 var xmlhttp = new XMLHttpRequest();
+
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-        myObj = JSON.parse(this.responseText);
+        var myObj = JSON.parse(this.responseText);
+    
+        var tracklist = shuffle(myObj.list);
+        addList(tracklist, '#tracklist');
         
-        for (var i in myObj.list) {
-            inListExist(i);
-        }
+        openClose(".show-list", "#tracklist");
     }
 };
 
 xmlhttp.open("GET", "tracklist.json", true);
 xmlhttp.send();
+
+function shuffle(array) {
+  var m = array.length, t, i;
+
+  while (m) {
+    i = Math.floor(Math.random() * m--);
+
+    t = array[m];
+    array[m] = array[i];
+    array[i] = t;
+  }
+  return array;
+}
+
+function addList(array, target) {
+    var tracklistUL = document.querySelector(target);
+    
+    array.forEach(function(item, i){
+        var listItem = document.createElement('li'),
+            videoLink = '';
+        
+        if(item.url){
+            var videoLink = '<a href="' + item.url + '" title="' + item.title + ' у виконанні kavananich на YouTube"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path fill="currentColor" d="M0 7.345c0-1.294.16-2.59.16-2.59s.156-1.1.636-1.587c.608-.637 1.408-.617 1.764-.684C3.84 2.36 8 2.324 8 2.324s3.362.004 5.6.166c.314.038.996.04 1.604.678.48.486.636 1.588.636 1.588S16 6.05 16 7.346v1.258c0 1.296-.16 2.59-.16 2.59s-.156 1.102-.636 1.588c-.608.638-1.29.64-1.604.678-2.238.162-5.6.166-5.6.166s-4.16-.037-5.44-.16c-.356-.067-1.156-.047-1.764-.684-.48-.487-.636-1.587-.636-1.587S0 9.9 0 8.605v-1.26zm6.348 2.73V5.58l4.323 2.255-4.32 2.24z"/></svg></a>';
+        }
+        listItem.innerHTML = item.title + '<em> - ' + item.composer + '</em>' + videoLink;
+        tracklistUL.appendChild(listItem);
+    });
+}
+
+function openClose(target, elem) {
+    var target = document.querySelector(target),
+        elem = document.querySelector(elem),
+        elemChildsQty = elem.childNodes.length,
+        elemChildsHeight = elem.childNodes[1].offsetHeight;
+    
+    target.addEventListener("click", function(){
+        if(elem.classList.contains("open")){
+            elem.style.maxHeight = 6 * elemChildsHeight + "px";
+            target.innerHTML = "Показати більше";
+        } else {
+            elem.style.maxHeight = elemChildsQty * elemChildsHeight + "px";
+            target.innerHTML = "Приховати";
+        }
+        elem.classList.toggle('open');
+    });
+}
